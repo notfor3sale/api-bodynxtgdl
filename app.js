@@ -84,9 +84,9 @@ app.post('/cobro-conekta', async (req, res) => {
         const orderRequest = {
             currency: "MXN",
             customer_info: {
-                name: name || "Cliente Fortacero",
-                email: email || "correo_vacio@fortacero.com",
-                phone: formattedPhone // <-- Aquí se inyecta el teléfono real formateado
+                name: name || "Cliente Body",
+                email: email || "correo_vacio@body.com",
+                phone: formattedPhone // 
             },
             line_items: [{
                 name: description || "Compra Web Fortacero",
