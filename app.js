@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const PRIVATE_KEY = process.env.CONEKTA_PRIVATE_KEY || "key_7CcBIvQDE3HIJakN7BmBwrf";
+const PRIVATE_KEY = process.env.CONEKTA_PRIVATE_KEY || "key_9ipwD19QM3tlk1epCNnzr1V";
 
 const config = new Configuration({
     accessToken: PRIVATE_KEY,
